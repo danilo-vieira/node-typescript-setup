@@ -1,7 +1,9 @@
-<h1 style="display:flex;align-items:center;justify-content:center;">
-  NodeJS + TS: Setup Structure
-  <img style="margin-left: 20px" src="https://ik.imagekit.io/danilovieira/NodeIcon_O7fexAOh0.svg" alt="NodeJS" />
-</h1>
+<div style="display:flex;align-items:center;justify-content:center;">
+  <h1 style="display:flex; align-items:center">
+    NodeJS + TS: Setup Structure
+    <img style="margin-left: 20px" src="https://ik.imagekit.io/danilovieira/NodeIcon_O7fexAOh0.svg" alt="NodeJS" />
+  </h1>
+</div>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D6.0.0-blue.svg" />
