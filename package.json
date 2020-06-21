@@ -1,8 +1,18 @@
 {
   "name": "node-typescript-structure",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "NodeJS project structure with TypeScript, ESLint, Prettier and more!",
+  "author": "Danilo Vieira <danilo_strvieira@hotmail.com>",
+  "main": "./src/server.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilo-vieira/node-typescript-setup.git"
+  },
+  "engines": {
+    "npm": ">=6.0.0",
+    "node": ">=10.0.0"
+  },
   "scripts": {
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
     "start": "node dist/server.js",
