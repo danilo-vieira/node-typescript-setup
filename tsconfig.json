@@ -7,12 +7,12 @@
     "outDir": "./dist",                       
     "rootDir": "./src",                       
     "removeComments": true,
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@controllers/*": ["./controllers/*"], 
-      "@models/*": ["./models/*"],
-      "@views/*": ["./views/*"],
-      "@config/*": ["./config/*"]
+      "@controllers/*": ["./src/controllers/*"], 
+      "@models/*": ["./src/models/*"],
+      "@views/*": ["./src/views/*"],
+      "@config/*": ["./src/config/*"]
     },                   
     "typeRoots": [
       "./node_modules/@types",
